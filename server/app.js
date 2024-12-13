@@ -45,7 +45,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api', contactRoutes);
 app.use('/api/cars', carRoutes);
 app.use('/api/reviews', reviewRoutes);
-mongoose.connect('mongodb+srv://abysswalker:149lopatina@indahood.qhmtv.mongodb.net/myDatabase?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://username:password@indahood.qhmtv.mongodb.net/myDatabase?retryWrites=true&w=majority')
   .then(() => {
     console.log('Successfully connected to MongoDB');
   })
